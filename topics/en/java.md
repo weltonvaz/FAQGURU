@@ -1,211 +1,210 @@
 ## Java
 
-[O que é uma JVM? Por quê Java é chamada de “Linguagem de programação independente de plataforma”?](#o-que-e-jvm-por-que-java-e-chamado-de-linguagem-de-programacao-independente-de-plataforma)
+[O que é JVM ? Por quê Java é chamado de “Linguagem de Programação Independente de Plataforma” ?](#O-que-é-JVM--Por-quê-Java-é-chamado-de-“Linguagem-de-Programação-Independente-de-Plataforma”
 
-[O que é uma Servlet?](#o-que-e-uma-servlet)
+[O que é uma Servlet?](#O-que-é-uma-Servlet)
 
 [O que é uma página JSP?](#O-que-é-uma-página-JSP)
 
-[Let's talk Swing. What is the difference between a Choice and a List?](#lets-talk-swing-what-is-the-difference-between-a-choice-and-a-list)
+[Vamos conversar sobre o Swing. Qual é a diferença entre um Choice e um List?](#Vamos-conversar-sobre-o-Swing.-Qual-é-a-diferença-entre-um-Choice-e-um-List)
 
-[Qual a diferença entre uma applet e uma aplicação Java?](#qual-a-diferença-entre-uma-applet-e-uma-aplicação-java)
+[Qual a diferença entre uma applet e uma aplicação Java?](#Qual-a-diferença-entre-uma-applet-e-uma-aplicação-Java)
 
-[qual é a diferença entre JDK e JRE? ](#qual-é-a-diferença-entre-jdk-e-jre)
+[Qual é a diferença entre JDK e JRE? ](#Qual-é-a-diferença-entre-JDK-e-JRE
 
-[What are the two types of Exceptions in Java? Which are the differences between them? ](#what-are-the-two-types-of-exceptions-in-java-which-are-the-differences-between-them)
+[Quais são os dois tipos de exceção em Java? Qual a diferença entre eles? ](#Quais-são-os-dois-tipos-de-exceção-em-Java-Qual-a-diferença-entre-eles
 
-[Explain the architecture of a Servlet.](#explain-the-architecture-of-a-servlet)
+[Explique a arquitetura de uma Servlet.](#Explique-a-arquitetura-de-uma-Servlet.)
 
-[What is the difference between an Interface and an Abstract class? ](#what-is-the-difference-between-an-interface-and-an-abstract-class)
+[Qual é a diferença entre uma interface e uma classe abstrata? ](#Qual-é-a-diferença-entre-uma-interface-e-uma-classe-abstrata
 
-[What are pass by reference and pass by value? ](#what-are-pass-by-reference-and-pass-by-value)
+[O que são passagem por referência e passagem por valor? ](#O-que-são-passagem-por-referência-e-passagem-por-valor
 
-[What is the difference between processes and threads?](#what-is-the-difference-between-processes-and-threads)
+[Qual é a diferença entre processos e threads?](#Qual-é-a-diferença-entre-processos-e-threads)
 
-[Explain Serialization and Deserialization. ](#explain-serialization-and-deserialization)
+[Explique Serialização e Desserialização. ](#Explique-Serialização-e-Desserialização.
 
-[What are Expressions?](#what-are-expressions)
+[O que são expressões?](#O-que-são-expressões)
 
-[What are Declarations?](#what-are-declarations)
+[O que são Declarações?](#O-que-são-Declarações)
 
-[What are JSP actions?](#what-are-jsp-actions)
+[O que são JSP actions?](#O-que-são-JSP-actions)
 
-[What are Directives?](#what-are-directives)
+[O que são Diretivas?](#O-que-são-Diretivas)
 
-[How are the JSP requests handled?](#how-are-the-jsp-requests-handled)
+[Como as solicitações JSP são tratadas?](#Como-as-solicitações-JSP-são-tratadas)
 
-[What are the basic interfaces of Java Collections Framework? ](#what-are-the-basic-interfaces-of-java-collections-framework)
+[Quais são as interfaces básicas do Java Collections Framework?](#Quais-são-as-interfaces-básicas-do-Java-Collections-Framework)
 
-[What does the “static” keyword mean? Can you override private or static method in Java?](#what-does-the-static-keyword-mean-can-you-override-private-or-static-method-in-java)
+[O que significa a palavra-chave static ? Você pode substituir o método privado ou estático em Java?](#O-que-significa-a-palavra-chave-static--Você-pode-substituir-o-método-privado-ou-estático-em-Java)
 
-[What is an Iterator? ](#what-is-an-iterator)
+[O que é um Iterador?](#O-que-é-um-Iterador)
 
-[What is the purpose Class.forName method?](#what-is-the-purpose-classforname-method)
+[Qual é o propósito do método Class.forName?](#Qual-é-o-propósito-do-método-Class.forName)
 
-[What is JDBC?](#what-is-jdbc)
+[O que é JDBC?](#O-que-é-JDBC)
 
-[How HashMap works in Java? ](#how-hashmap-works-in-java)
+[Como o HashMap funciona em Java?](#Como-o-HashMap-funciona-em-Java)
 
-[What is the design pattern that Java uses for all Swing components?](#what-is-the-design-pattern-that-java-uses-for-all-swing-components)
+[Qual é o padrão de design que o Java usa para todos os componentes Swing?](#Qual-é-o-padrão-de-design-que-o-Java-usa-para-todos-os-componentes-Swing)
 
-[What differences exist between HashMap and Hashtable? ](#what-differences-exist-between-hashmap-and-hashtable)
+[Que diferenças existem entre HashMap e Hashtable?](#Que-diferenças-existem-entre-HashMap-e-Hashtable)
 
-[What advantage do Java’s layout managers provide over traditional windowing systems?](#what-advantage-do-javas-layout-managers-provide-over-traditional-windowing-systems)
+[Que vantagem os gerenciadores de layout do Java oferecem em relação aos sistemas de janelas tradicionais?](#Que-vantagem-os-gerenciadores-de-layout-do-Java-oferecem-em-relação-aos-sistemas-de-janelas-tradicionais)
 
-[How can a GUI component handle its own events?](#how-can-a-gui-component-handle-its-own-events)
+[Como um componente GUI pode lidar com seus próprios eventos?](#Como-um-componente-GUI-pode-lidar-com-seus-próprios-eventos)
 
-[What is a layout manager?](#what-is-a-layout-manager)
+[O que é um layout manager?](#O-que-é-um-layout-manager)
 
-[What’s the difference between sendRedirect and forward methods?](#whats-the-difference-between-sendredirect-and-forward-methods)
+[Qual é a diferença entre os métodos sendRedirect e forward?](#Qual-é-a-diferença-entre-os-métodos-sendRedirect-e-forward)
 
-[What do you know about the big-O notation and can you give some examples with respect to different data structures?](#what-do-you-know-about-the-big-o-notation-and-can-you-give-some-examples-with-respect-to-different-data-structures)
+[O que você sabe sobre a notação big-O e pode dar alguns exemplos com relação a diferentes estruturas de dados?](#O-que-você-sabe-sobre-a-notação-big-O-e-pode-dar-alguns-exemplos-com-relação-a-diferentes-estruturas-de-dados)
 
-[What are the Data Types supported by Java? What is Autoboxing and Unboxing?](#what-are-the-data-types-supported-by-java-what-is-autoboxing-and-unboxing)
+[Quais sã os tipos de dados suportados pelo Java? O que é Autoboxing e Unboxing?](#Quais-sã-os-tipos-de-dados-suportados-pelo-Java-O-que-é-Autoboxing-e-Unboxing)
 
-[What is Function Overriding and Overloading in Java?](#what-is-function-overriding-and-overloading-in-java)
+[que é sobrescrita e sobrecarga de função em Java?](#que-é-sobrescrita-e-sobrecarga-de-função-em-Java)
 
-[What is an Java Applet?](#what-is-an-java-applet)
+[O que é um Applet Java?](#O-que-é-um-Applet-Java)
 
-[What will happen to the Exception object after exception handling?](#what-will-happen-to-the-exception-object-after-exception-handling)
+[O que ira acontecer a Exception depois do tratamento da exceção?](#O-que-ira-acontecer-a-Exception-depois-do-tratamento-da-exceção)
 
-[ What is the purpose of garbage collection in Java, and when is it used?](#what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used)
+[ Qual é o propósito do garbage collection em Java, e quando é usado?](#-Qual-é-o-propósito-do-garbage-collection-em-Java,-e-quando-é-usado)
 
-[What does System.gc() and Runtime.gc() methods do?](#what-does-systemgc-and-runtimegc-methods-do)
+[O que os métodos System.gc() e Runtime.gc() fazem?](#O-que-os-métodos-System.gc()-e-Runtime.gc()-fazem)
 
-[What is the importance of finally block in exception handling?](#what-is-the-importance-of-finally-block-in-exception-handling)
+[Qual é a importância do bloco finally no tratamento de exceções?](#Qual-é-a-importância-do-bloco-finally-no-tratamento-de-exceções)
 
-[What is the difference between Exception and Error in java?](#what-is-the-difference-between-exception-and-error-in-java)
+[Qual é a diferença entre exceção e erro em java?](#Qual-é-a-diferença-entre-exceção-e-erro-em-java)
 
-[What is meant by a Web Application?](#what-is-meant-by-a-web-application)
+[O que significa uma aplicação Web?](#O-que-significa-uma-aplicação-Web)
 
-[When does an Object becomes eligible for Garbage collection in Java? ](#when-does-an-object-becomes-eligible-for-garbage-collection-in-java-)
+[Quando um objeto se torna elegível para o Garbage Collection em Java?](#Quando-um-objeto-se-torna-elegível-para-o-Garbage-Collection-em-Java)
 
-[Why Collection doesn’t extend Cloneable and Serializable interfaces? ](#why-collection-doesnt-extend-cloneable-and-serializable-interfaces)
+[Por que Collection não estende as interfaces Cloneable e Serializable?](#Por-que-Collection-não-estende-as-interfaces-Cloneable-e-Serializable)
 
-[What happens when an applet is loaded?](#what-happens-when-an-applet-is-loaded)
+[O que acontece quando um applet é carregado?](#O-que-acontece-quando-um-applet-é-carregado)
 
-[What is the role of stub in RMI?](#what-is-the-role-of-stub-in-rmi)
+[Qual é a função do stub no RMI?](#Qual-é-a-função-do-stub-no-RMI)
 
-[What is structure of Java Heap?](#what-is-structure-of-java-heap)
+[Qual é a estrutura do Java Heap?](#Qual-é-a-estrutura-do-Java-Heap)
 
-[If an object reference is set to null, will the Garbage Collector immediately free the memory held by that object?](#if-an-object-reference-is-set-to-null-will-the-garbage-collector-immediately-free-the-memory-held-by-that-object)
+[Se uma referência de objeto for definida como nula, o Garbage Collector liberará imediatamente a memória mantida por esse objeto?](#Se-uma-referência-de-objeto-for-definida-como-nula,-o-Garbage-Collector-liberará-imediatamente-a-memória-mantida-por-esse-objeto)
 
-[What is the difference between throw and throws?](#what-is-the-difference-between-throw-and-throws)
+[Qual é a diferença entre throw e throws?](#Qual-é-a-diferença-entre-throw-e-throws)
 
-[When is the finalize() called? What is the purpose of finalization? ](#when-is-the-finalize-called-what-is-the-purpose-of-finalization)
+[Quando finalize () é chamado? Qual é o propósito da finalização?](#Quando-finalize-()-é-chamado-Qual-é-o-propósito-da-finalização)
 
-[What are the steps involved to make work a RMI program? ](#what-are-the-steps-involved-to-make-work-a-rmi-program)
+[Quais são as etapas envolvidas para o trabalho de um programa RMI?](#Quais-são-as-etapas-envolvidas-para-o-trabalho-de-um-programa-RMI)
 
-[How does finally block differ from finalize() method?](#how-does-finally-block-differ-from-finalize-method)
+[Como o finally block difere do método finalize ()?](#Como-o-finally-block-difere-do-método-finalize-())
 
-[What’s the difference between Enumeration and Iterator interfaces? ](#whats-the-difference-between-enumeration-and-iterator-interfaces)
+[Qual é a diferença entre as interfaces Enumeration e Iterator?](#Qual-é-a-diferença-entre-as-interfaces-Enumeration-e-Iterator)
 
-[Explain the life cycle of an Applet. ](#explain-the-life-cycle-of-an-applet)
+[Explique o ciclo de vida de um applet.](#Explique-o-ciclo-de-vida-de-um-applet.)
 
-[Can you access non static variable in static context?](#can-you-access-non-static-variable-in-static-context)
+[Você pode acessar variáveis não estáticas em contexto estático?](#Você-pode-acessar-variáveis-não-estáticas-em-contexto-estático)
 
-[What is the tradeoff between using an unordered array versus an ordered array? ](#what-is-the-tradeoff-between-using-an-unordered-array-versus-an-ordered-array)
+[Qual é a vantagem e desvantagem entre usar uma matriz não ordenada e uma matriz ordenada?](#Qual-é-a-vantagem-e-desvantagem-entre-usar-uma-matriz-não-ordenada-e-uma-matriz-ordenada)
 
-[What are the restrictions imposed on Java applets?](#what-are-the-restrictions-imposed-on-java-applets)
+[Quais são as restrições impostas aos apllets Java?](#Quais-são-as-restrições-impostas-aos-apllets-Java)
 
-[What are untrusted applets?](#what-are-untrusted-applets)
+[O que são applets não confiáveis?](#O-que-são-applets-não-confiáveis)
 
-[ What is a Server Side Include (SSI)?](#what-is-a-server-side-include-ssi)
+#NOME?
 
-[What is a Constructor, Constructor Overloading in Java and Copy-Constructor? ](#what-is-a-constructor-constructor-overloading-in-java-and-copy-constructor)
+[O que é um Construtor, Sobrecarga de Construtor em Java e Construtor de Cópia?](#O-que-é-um-Construtor,-Sobrecarga-de-Construtor-em-Java-e-Construtor-de-Cópia)
 
-[What is the applet security manager, and what does it provide?](#what-is-the-applet-security-manager-and-what-does-it-provide)
+[O que é o gerenciador de segurança do applet e o que ele fornece?](#O-que-é-o-gerenciador-de-segurança-do-applet-e-o-que-ele-fornece)
 
-[What is Java Priority Queue?](#what-is-java-priority-queue)
+[O que é Java Priority Queue?](#O-que-é-Java-Priority-Queue)
 
-[What is Comparable and Comparator interface? List their differences.](#what-is-comparable-and-comparator-interface-list-their-differences)
+[O que é a interface Comparable e Comparator? Liste suas diferenças.](#O-que-é-a-interface-Comparable-e-Comparator-Liste-suas-diferenças.)
 
-[Which Swing methods are thread-safe?](#which-swing-methods-are-thread-safe)
+[Quais métodos Swing são thread-safe?](#Quais-métodos-Swing-são-thread-safe)
 
-[What is the relationship between an event-listener interface and an event-adapter class?](#what-is-the-relationship-between-an-event-listener-interface-and-an-event-adapter-class)
+[Qual é o relacionamento entre uma interface event-listener e uma classe do adaptador de eventos?](#Qual-é-o-relacionamento-entre-uma-interface-event-listener-e-uma-classe-do-adaptador-de-eventos)
 
-[What is difference between ArrayList and LinkedList? ](#what-is-difference-between-arraylist-and-linkedlist)
+[Qual é a diferença entre ArrayList e LinkedList?](#Qual-é-a-diferença-entre-ArrayList-e-LinkedList)
 
-[What is difference between Array and ArrayList? When will you use Array over ArrayList?](#what-is-difference-between-array-and-arraylist-when-will-you-use-array-over-arraylist)
+[Qual é a diferença entre Array e ArrayList? Quando você usará Array em vez de ArrayList?](#Qual-é-a-diferença-entre-Array-e-ArrayList-Quando-você-usará-Array-em-vez-de-ArrayList)
 
-[What is the importance of hashCode() and equals() methods? ](#what-is-the-importance-of-hashcode-and-equals-methods)
+[Qual é a importância dos métodos hashCode() e equals()?](#Qual-é-a-importância-dos-métodos-hashCode()-e-equals())
 
-[What is difference between fail-fast and fail-safe? ](#what-is-difference-between-fail-fast-and-fail-safe)
+[Qual é a diferença entre fail-fast e fail-safe?](#Qual-é-a-diferença-entre-fail-fast-e-fail-safe)
 
-[Explain the role of Driver in JDBC. ](#explain-the-role-of-driver-in-jdbc)
+[Explique a função do driver no JDBC.](#Explique-a-função-do-driver-no-JDBC.)
 
-[What differences exist between Iterator and ListIterator? ](#what-differences-exist-between-iterator-and-listiterator)
+[Que diferenças existem entre Iterator e ListIterator?](#Que-diferenças-existem-entre-Iterator-e-ListIterator)
 
-[What is the advantage of PreparedStatement over Statement?](#what-is-the-advantage-of-preparedstatement-over-statement)
+[Qual é a vantagem de PreparedStatement em relação à Statement?](#Qual-é-a-vantagem-de-PreparedStatement-em-relação-à-Statement)
 
-[What is the use of CallableStatement? Name the method, which is used to prepare a CallableStatement.](#what-is-the-use-of-callablestatement-name-the-method-which-is-used-to-prepare-a-callablestatement)
+[Qual é a utilidade de CallableStatement? Nomeie o método, que é usado para preparar um CallableStatement.](#Qual-é-a-utilidade-de-CallableStatement-Nomeie-o-método,-que-é-usado-para-preparar-um-CallableStatement.)
 
-[What is the difference between doGet() and doPost()?](#what-is-the-difference-between-doget-and-dopost)
+[Qual é a diferença entre doGet() e doPost()?](#Qual-é-a-diferença-entre-doGet()-e-doPost())
 
-[Explain the life cycle of a Servlet.](#explain-the-life-cycle-of-a-servlet)
+[Explique o ciclo de vida de um Servlet.](#Explique-o-ciclo-de-vida-de-um-Servlet.)
 
-[What is the difference between GenericServlet and HttpServlet?](#what-is-the-difference-between-genericservlet-and-httpservlet)
+[Qual é a diferença entre GenericServlet e HttpServlet?](#Qual-é-a-diferença-entre-GenericServlet-e-HttpServlet)
 
-[What are the advantages of JSP?](#what-are-the-advantages-of-jsp)
+[Quais são as vantagens do JSP?](#Quais-são-as-vantagens-do-JSP)
 
-[What’s a deadlock? ](#whats-a-deadlock)
+[O que é um deadlock?](#O-que-é-um-deadlock)
 
-[What is the difference between an Applet and a Servlet?](#what-is-the-difference-between-an-applet-and-a-servlet)
+[Qual é a diferença entre um Applet e um Servlet?](#Qual-é-a-diferença-entre-um-Applet-e-um-Servlet)
 
-[What are Scriptlets?](#what-are-scriptlets)
+[O que são Scriptlets?](#O-que-são-Scriptlets)
 
-[Does Java support multiple inheritance? ](#does-java-support-multiple-inheritance)
+[Java oferece suporte a herança múltipla?](#Java-oferece-suporte-a-herança-múltipla)
 
-[Explain different ways of creating a thread. Which one would you prefer and why?](#explain-different-ways-of-creating-a-thread-which-one-would-you-prefer-and-why)
+[Explique as diferentes maneiras de criar uma thread. Qual você prefere e por quê?](#Explique-as-diferentes-maneiras-de-criar-uma-thread.-Qual-você-prefere-e-por-quê)
 
-[What is meant by JSP implicit objects and what are they?](#what-is-meant-by-jsp-implicit-objects-and-what-are-they)
+[O que significa objetos implícitos JSP e o que são?](#O-que-significa-objetos-implícitos-JSP-e-o-que-são)
 
-[What is RMI?](#what-is-rmi)
+[O que é RMI?](#O-que-é-RMI)
 
-[Explain the available thread states in a high-level.](#explain-the-available-thread-states-in-a-high-level)
+[Explique os estados de thread disponíveis em alto nível.](#Explique-os-estados-de-thread-disponíveis-em-alto-nível.)
 
-[Explain Marshalling and demarshalling.](#explain-marshalling-and-demarshalling)
+[Explique Marshalling e Demarshalling.](#Explique-Marshalling-e-Demarshalling.)
 
-[How do you ensure that N threads can access N resources without deadlock? ](#how-do-you-ensure-that-n-threads-can-access-n-resources-without-deadlock)
+[Como você garante que N threads podem acessar N recursos sem deadlock?](#Como-você-garante-que-N-threads-podem-acessar-N-recursos-sem-deadlock)
 
-[What is Perm Gen space in Heap?](#what-is-perm-gen-space-in-heap)
+[O que é o espaço Perm Gen no Heap?](#O-que-é-o-espaço-Perm-Gen-no-Heap)
 
-[What does Connection pooling mean?](#what-does-connection-pooling-mean)
+[O que significa pool de conexão?](#O-que-significa-pool-de-conexão)
 
-[What is the applet class loader, and what does it provide?](#what-is-the-applet-class-loader-and-what-does-it-provide)
+[O que é o classloader de applet e o que ele fornece?](#O-que-é-o-classloader-de-applet-e-o-que-ele-fornece)
 
-[ What is the difference between applets loaded over the internet and applets loaded via the file system?](#what-is-the-difference-between-applets-loaded-over-the-internet-and-applets-loaded-via-the-file-system)
+#NOME?
 
-[What is Servlet Chaining?](#what-is-servlet-chaining)
+[O que é Servlet Chaining?](#O-que-é-Servlet-Chaining)
 
-[How do you find out what client machine is making a request to your servlet?](#how-do-you-find-out-what-client-machine-is-making-a-request-to-your-servlet)
+[Como você descobre qual máquina cliente está fazendo uma solicitação ao seu servlet?](#Como-você-descobre-qual-máquina-cliente-está-fazendo-uma-solicitação-ao-seu-servlet)
 
-[What are some of the best practices relating to the Java Collection framework?](#what-are-some-of-the-best-practices-relating-to-the-java-collection-framework)
+[Quais são as melhores práticas relacionadas à estrutura Java Collection?](#Quais-são-as-melhores-práticas-relacionadas-à-estrutura-Java-Collection)
 
-[What is the difference between a synchronized method and a synchronized block?](#what-is-the-difference-between-a-synchronized-method-and-a-synchronized-block)
+[Qual é a diferença entre um método sincronizado e um bloco sincronizado?](#Qual-é-a-diferença-entre-um-método-sincronizado-e-um-bloco-sincronizado)
 
-[What is the basic principle of RMI architecture?](#what-is-the-basic-principle-of-rmi-architecture)
+[Qual é o princípio básico da arquitetura RMI?](#Qual-é-o-princípio-básico-da-arquitetura-RMI)
 
-[What is the purpose of using RMISecurityManager in RMI?](#what-is-the-purpose-of-using-rmisecuritymanager-in-rmi)
+[Qual é o propósito de usar RMISecurityManager em RMI?](#Qual-é-o-propósito-de-usar-RMISecurityManager-em-RMI)
 
-[What is the role of Remote Interface in RMI?](#what-is-the-role-of-remote-interface-in-rmi)
+[Qual é a função da Interface Remota no RMI?](#Qual-é-a-função-da-Interface-Remota-no-RMI)
 
-[What is the role of the java.rmi.Naming Class? ](#what-is-the-role-of-the-javarminaming-class)
+[Qual é a função da classe java.rmi.Naming?](#Qual-é-a-função-da-classe-java.rmi.Naming)
 
-[What is meant by binding in RMI?](#what-is-meant-by-binding-in-rmi)
+[O que significa binding em RMI?](#O-que-significa-binding-em-RMI)
 
-[What is the difference between Serial and Throughput Garbage collector?](#what-is-the-difference-between-serial-and-throughput-garbage-collector)
+[Qual é a diferença entre Garbage Collector serial e throughput?](#Qual-é-a-diferença-entre-Garbage-Collector-serial-e-throughput)
 
-[What is the difference between HashSet and TreeSet?](#what-is-the-difference-between-hashset-and-treeset)
+[Qual é a diferença entre HashSet e TreeSet?](#Qual-é-a-diferença-entre-HashSet-e-TreeSet)
 
-[Does Garbage collection occur in permanent generation space in JVM?](#does-garbage-collection-occur-in-permanent-generation-space-in-jvm)
+[O Garbage Collection ocorre no espaço de geração permanente na JVM?](#O-Garbage-Collection-ocorre-no-espaço-de-geração-permanente-na-JVM)
 
-[What is DGC ? And how does it work?](#what-is-dgc--and-how-does-it-work)
+[O que é DGC? E como funciona?](#O-que-é-DGC-E-como-funciona)
 
-[What are the layers of RMI Architecture?](#what-are-the-layers-of-rmi-architecture)
+[Quais são as camadas da arquitetura RMI?](#Quais-são-as-camadas-da-arquitetura-RMI)
 
-[How does thread synchronization occurs inside a monitor? What levels of synchronization can you apply? ](#how-does-thread-synchronization-occurs-inside-a-monitor-what-levels-of-synchronization-can-you-apply)
-
+[Como a sincronização de thread ocorre dentro de um monitor? Que níveis de sincronização você pode aplicar?](#Como-a-sincronização-de-thread-ocorre-dentro-de-um-monitor-Que-níveis-de-sincronização-você-pode-aplicar)
 
 [[↑] Back to top](#Java)
 ### O que é JVM ? Por quê Java é chamado de “Linguagem de Programação Independente de Plataforma” ? 
@@ -1005,33 +1004,33 @@ Na tecnologia Java Server Pages (JSP), um scriptlet é um pedaço de código Jav
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Does Java support multiple inheritance? 
+### Java oferece suporte a herança múltipla?
 
-No, Java does not support multiple inheritance. Each class is able to extend only on one class, but is able to implement more than one interfaces.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Explain different ways of creating a thread. Which one would you prefer and why?
-
-There are three ways that can be used in order for a [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) to be created:
-
-* A class may extend the [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) class.
-* A class may implement the [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) interface.
-* An application can use the [Executor](http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executor.html) framework, in order to create a thread pool.
-
-The [Runnable](http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) interface is preferred, as it does not require an object to inherit the [Thread](http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) class. In case your application design requires multiple inheritance, only interfaces can help you. Also, the thread pool is very efficient and can be implemented and used very easily.
+Não, o Java não oferece suporte a herança múltipla. Cada classe pode estender apenas uma classe, mas é capaz de implementar mais de uma interface.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is meant by JSP implicit objects and what are they?
+### Explique as diferentes maneiras de criar uma thread. Qual você prefere e por quê?
 
-JSP implicit objects are those Java objects that the JSP Container makes available to developers in each page. A developer can call them directly, without being explicitly declared. JSP Implicit Objects are also called pre-defined variables.The following objects are considered implicit in a JSP page:
+Existem três maneiras que podem ser usadas para que uma [Thread] (http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html) seja criado:
+
+* Uma classe pode estender a classe [Thread] (http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html).
+* Uma classe pode implementar a interface [Runnable] (http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html).
+* Uma aplicação pode usar o framework [Executor] (http://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Executor.html), a fim de criar um pool de threads.
+
+A interface [Runnable] (http://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html) é preferida, pois não requer um objeto para herdar a classe [Thread] (http://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html). Caso o design da sua aplicação exija herança múltipla, apenas as interfaces podem ajudá-lo. Além disso, o pool de threads é muito eficiente e pode ser implementado e usado com muita facilidade.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que significa objetos implícitos JSP e o que são?
+
+Os objetos JSP implícitos são aqueles objetos Java que o Container JSP disponibiliza aos desenvolvedores em cada página. Um desenvolvedor pode chamá-los diretamente, sem ser explicitamente declarado. Objetos JSP Implícitos também são chamados de variáveis predefinidas. Os seguintes objetos são considerados implícitos em uma página JSP:
 
 * application
 * page
@@ -1048,175 +1047,175 @@ JSP implicit objects are those Java objects that the JSP Container makes availab
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is RMI?
+### O que é RMI?
 
-The Java Remote Method Invocation (Java RMI) is a Java API that performs the object-oriented equivalent of remote procedure calls (RPC), with support for direct transfer of serialized Java classes and distributed garbage collection. Remote Method Invocation (RMI) can also be seen as the process of activating a method on a remotely running object. RMI offers location transparency because a user feels that a method is executed on a locally running object. 
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### Explain the available thread states in a high-level.
-
-During its execution, a thread can reside in one of the following states:
-
-* Runnable: A thread becomes ready to run, but does not necessarily start running immediately.
-* Running: The processor is actively executing the thread code.
-* Waiting: A thread is in a blocked state waiting for some external processing to finish.
-* Sleeping: The thread is forced to sleep.
-* Blocked on I/O: Waiting for an I/O operation to complete.
-* Blocked on Synchronization: Waiting to acquire a lock.
-* Dead: The thread has finished its execution.
+O Java Remote Method Invocation (Java RMI) é uma API Java que executa equivalentemente orientado a objetos as chamadas de procedimento remoto (RPC), com suporte para transferência direta de classes Java serializadas e garbage collection distribuída. A invocação de método remoto (RMI) também pode ser vista como o processo de ativação de um método em um objeto em execução remota. O RMI oferece transparência de localização porque o usuário sente que um método é executado em um objeto em execução local. 
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### Explain Marshalling and demarshalling.
+### Explique os estados de thread disponíveis em alto nível.
 
-When an application wants to pass its memory objects across a network to another host or persist it to storage, the in-memory representation must be converted to a suitable format. This process is called marshalling and the revert operation is called demarshalling.
+Durante sua execução, um thread pode residir em um dos seguintes estados:
 
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### How do you ensure that N threads can access N resources without deadlock? 
-
-A very simple way to avoid deadlock while using N threads is to impose an ordering on the locks and force each thread to follow that ordering. Thus, if all threads lock and unlock the mutexes in the same order, no deadlocks can arise.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is Perm Gen space in Heap?
-
-Perm Gen stands for permanent generation. It is the space on Java Heap that holds meta-data describing user classes (classes that are not part of the Java language). Examples of such meta-data are objects describing classes and methods and they are stored in the Permanent Generation. Applications with large code-base can quickly fill up this segment of the heap which will cause ```java.lang.OutOfMemoryError: PermGen``` no matter how high your ```-Xmx``` (maximum size of the memory allocation pool) and how much memory you have on the machine.
+* Runnable: um thread fica pronto para ser executado, mas não necessariamente começa a ser executado imediatamente.
+* Running: O processador está executando ativamente o código da thread.
+* Waiting: uma thread está em um estado bloqueado, aguardando a conclusão de algum processamento externo.
+* Sleeping: O thread é forçado a dormir.
+* Blocked on I/O: Aguardando a conclusão de uma operação de I/O.
+* Blocked on Synchronization: Aguardando um bloqueio.
+* Dead: O thread terminou sua execução.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What does Connection pooling mean?
+### Explique Marshalling e Demarshalling.
 
-The interaction with a database can be costly, regarding the opening and closing of database connections. Especially, when the number of database clients increases, this cost is very high and a large number of resources is consumed.A pool of database connections is obtained at start up by the application server and is maintained in a pool. A request for a connection is served by [a connection residing in the pool](http://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-connection-pool-configuration-with-c3p0-example/). In the end of the connection, the request is returned to the pool and can be used to satisfy future requests.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the applet class loader, and what does it provide?
-
-When an applet is loaded over the internet, the applet is loaded by the applet classloader. The class loader enforces the Java name space hierarchy. Also, the class loader guarantees that a unique namespace exists for classes that come from the local file system, and that a unique namespace exists for each network source. When a browser loads an applet over the net, that applet’s classes are placed in a private namespace associated with the applet’s origin. Then, those classes loaded by the class loader are passed through the verifier.The verifier checks that the class file conforms to the Java language specification . Among other things, the verifier ensures that there are no stack overflows or underflows and that the parameters to all bytecode instructions are correct.
+Quando uma aplicação deseja passar seus objetos de memória através de uma rede para outro host ou persisti-los no armazenamento, a representação na memória deve ser convertida em um formato adequado. Esse processo é chamado de marshalling e a operação de reversão é chamada demarshalling.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-###  What is the difference between applets loaded over the internet and applets loaded via the file system?
+### Como você garante que N threads podem acessar N recursos sem deadlock?
 
-Regarding the case where an applet is loaded over the internet, the applet is loaded by the applet classloader and is subject to the restrictions enforced by the applet security manager. Regarding the case where an applet is loaded from the client’s local disk, the applet is loaded by the file system loader. Applets loaded via the file system are allowed to read files, write files and to load libraries on the client. Also, applets loaded via the file system are allowed to execute processes and finally, applets loaded via the file system are not passed through the byte code verifier.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is Servlet Chaining?
-
-Servlet Chaining is the method where the output of one servlet is sent to a second servlet. The output of the second servlet can be sent to a third servlet, and so on. The last servlet in the chain is responsible for sending the response to the client.
+Uma maneira muito simples de evitar conflito ao usar N threads é impor uma ordem aos bloqueios e forçar cada thread a seguir essa ordem. Portanto, se todos os threads bloquear e desbloquear as exclusões mutuas na mesma ordem, nenhum conflito poderá ocorrer.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### How do you find out what client machine is making a request to your servlet?
+### O que é o espaço Perm Gen no Heap?
 
-The ServletRequest class has functions for finding out the IP address or host name of the client machine. getRemoteAddr() gets the IP address of the client machine and getRemoteHost() gets the host name of the client machine. See example [here](http://examples.javacodegeeks.com/enterprise-java/servlet/get-client-s-address-and-hostname-in-servlet/).
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What are some of the best practices relating to the Java Collection framework?
-
-* Choosing the right type of the collection to use, based on the application’s needs, is very crucial for its performance. For example if the size of the elements is fixed and know a priori, we shall use an [Array](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html), instead of an [ArrayList](http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html).
-* Some collection classes allow us to specify their initial capacity. Thus, if we have an estimation on the number of elements that will be stored, we can use it to avoid rehashing or resizing.
-* Always use Generics for type-safety, readability, and robustness. Also, by using Generics you avoid the [ClassCastException](http://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html) during runtime.
-* Use immutable classes provided by the Java Development Kit (JDK) as a key in a Map, in order to avoid the implementation of the [hashCode](http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode%28%29) and equals methods for our custom class.
-* Program in terms of interface not implementation.
-* Return zero-length collections or arrays as opposed to returning a null in case the underlying collection is actually empty.
+Perm Gen significa geração permanente. É o espaço no Java Heap que contém metadados que descrevem as classes do usuário (classes que não fazem parte da linguagem Java). Exemplos de tais metadados são objetos que descrevem classes e métodos e são armazenados na Perm Gen. Aplicações com grande base de código podem preencher rapidamente este segmento do heap que causará ```java.lang.OutOfMemoryError: PermGen``` não importa o quão alto seu ``` -Xmx``` (tamanho máximo da memória pool de alocação) e quanta memória você tem na máquina.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between a synchronized method and a synchronized block?
+### O que significa pool de conexão?
 
-In Java programming, each object has a lock. A thread can acquire the lock for an object by using the synchronized keyword. The synchronized keyword can be applied in a method level (coarse grained lock) or block level of code (fine grained lock).
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the basic principle of RMI architecture?
-
-The RMI architecture is based on a very important principle which states that the definition of the behavior and the implementation of that behavior, are separate concepts. RMI allows the code that defines the behavior and the code that implements the behavior to remain separate and to run on separate JVMs.
+A interação com um banco de dados pode ser onerosa, no que diz respeito à abertura e fechamento de conexões de banco de dados. Especialmente, quando o número de clientes de banco de dados aumenta, esse custo é muito alto e um grande número de recursos é consumido. Um pool de conexões de banco de dados é obtido na inicialização pelo servidor de aplicações e é mantido em um pool. Uma solicitação de conexão é atendida por [uma conexão residente no pool] (http://examples.javacodegeeks.com/enterprise-java/hibernate/hibernate-connection-pool-configuration-with-c3p0-example/). No final da conexão, a solicitação é retornada ao pool e pode ser usada para atender a solicitações futuras.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the purpose of using RMISecurityManager in RMI?
+### O que é o classloader de applet e o que ele fornece?
 
-RMISecurityManager provides a security manager that can be used by RMI applications, which use downloaded code. The class loader of RMI will not download any classes from remote locations, if the security manager has not been set.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is the role of Remote Interface in RMI?
-
-The Remote interface serves to identify interfaces whose methods may be invoked from a non-local virtual machine. Any object that is a remote object must directly or indirectly implement this interface. A class that implements a remote interface should declare the remote interfaces being implemented, define the constructor for each remote object and provide an implementation for each remote method in all remote interfaces.
+Um applet é carregado pelo classloader quando na internet. O classloader reforça a hierarquia do namespace Java. Além disso, o classloader garante que exista um namespace exclusivo para as classes que vêm do sistema de arquivos local e que exista um namespace exclusivo para cada origem de rede. Quando um navegador carrega um applet na rede, as classes desse applet são colocadas em um namespace privado associado à origem do applet. Em seguida, essas classes carregadas pelo classloader são passadas pelo verificador. O verificador verifica se o arquivo de classe está em conformidade com a especificação da linguagem Java. Entre outras coisas, o verificador garante que não haja overflows ou underflows de pilha e que os parâmetros para todas as instruções de bytecode estejam corretos.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the role of the java.rmi.Naming Class? 
+###  Qual é a diferença entre applets carregados pela Internet e applets carregados por meio do sistema de arquivos?
 
-The java.rmi.Naming class provides methods for storing and obtaining references to remote objects in the remote object registry. Each method of the Naming class takes as one of its arguments a name that is a String in URL format.
-
-###### Source
-
-* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
-
-[[↑] Back to top](#Java)
-### What is meant by binding in RMI?
-
-Binding is the process of associating or registering a name for a remote object, which can be used at a later time, in order to look up that remote object. A remote object can be associated with a name using the bind or rebind methods of the Naming class.
+Qunado um applet é carregado pela Internet, o applet é carregado pelo classloader do applet e está sujeito às restrições impostas pelo gerenciador de segurança do applet. Quando um applet é carregado do disco local do cliente, o applet é carregado pelo carregador do sistema de arquivos. Applets carregados por meio do sistema de arquivos têm permissão para ler e gravar arquivos e carregar bibliotecas no cliente. Além disso, os applets carregados por meio do sistema de arquivos têm permissão para executar processos e, finalmente, os applets carregados por meio do sistema de arquivos não são passados pelo verificador de bytecode.
 
 ###### Source
 
 * https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
 
 [[↑] Back to top](#Java)
-### What is the difference between Serial and Throughput Garbage collector?
+### O que é Servlet Chaining?
 
-The throughput garbage collector uses a parallel version of the young generation collector and is meant to be used with applications that have medium to large data sets. On the other hand, the serial collector is usually adequate for most small applications (those requiring heaps of up to approximately 100MB on modern processors).
+Servlet Chaining é o método onde a saída de um servlet é enviada para um segundo servlet. A saída do segundo servlet pode ser enviada para um terceiro servlet e assim por diante. O último servlet da cadeia é responsável por enviar a resposta ao cliente.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Como você descobre qual máquina cliente está fazendo uma solicitação ao seu servlet?
+
+A classe ServletRequest tem funções para descobrir o endereço IP ou nome do host da máquina cliente. getRemoteAddr() obtém o endereço IP da máquina cliente e getRemoteHost() obtém o nome do host da máquina cliente. Veja o exemplo [aqui] (http://examples.javacodegeeks.com/enterprise-java/servlet/get-client-s-address-and-hostname-in-servlet/).
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Quais são as melhores práticas relacionadas à estrutura Java Collection?
+
+* Escolher o tipo certo de coleção a ser usado, com base nas necessidades da aplicação é muito importante para seu desempenho. Por exemplo, se o tamanho dos elementos é fixo e conhecido a priori, devemos usar um [Array] (http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/Array.html ), em vez de um [ArrayList] (http://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html).
+* Algumas classes de coleção nos permitem especificar sua capacidade inicial. Assim, se tivermos uma estimativa do número de elementos que serão armazenados, podemos usá-la para evitar o rearranjo ou redimensionamento.
+* Sempre use Generics para segurança de tipo, legibilidade e robustez. Além disso, usando Generics, você evita o [ClassCastException] (http://docs.oracle.com/javase/7/docs/api/java/lang/ClassCastException.html) durante o tempo de execução.
+* Use classes imutáveis fornecidas pelo Java Development Kit (JDK) como chave em um Map, a fim de evitar a implementação do [hashCode] (http://docs.oracle.com/javase/7/docs/api/java/lang/Object.html#hashCode%28%29) e métodos equals para nossa classe personalizada.
+* Programa em termos de interface, não implementação.
+* Retorne coleções ou matrizes de comprimento zero ao invés de retornar um nulo caso a coleção subjacente esteja realmente vazia.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a diferença entre um método sincronizado e um bloco sincronizado?
+
+Na programação Java, cada objeto possui um bloqueio. Um thread pode adquirir o bloqueio de um objeto usando a palavra-chave synchronized. A palavra-chave synchronized pode ser aplicada em um nível de método (bloqueio de baixa granulação) ou nível de bloco de código (bloqueio de baixa granularidade).
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é o princípio básico da arquitetura RMI?
+
+A arquitetura RMI é baseada em um princípio muito importante que afirma que a definição do comportamento e a implementação desse comportamento são conceitos separados. O RMI permite que o código que define o comportamento e o código que implementa o comportamento permaneçam separados e sejam executados em JVMs separados.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é o propósito de usar RMISecurityManager em RMI?
+
+RMISecurityManager fornece um gerenciador de segurança que pode ser usado por aplicativos RMI, que usam código baixado. O carregador de classes do RMI não fará download de nenhuma classe de locais remotos, se o gerenciador de segurança não tiver sido definido.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a função da Interface Remota no RMI?
+
+A interface remota serve para identificar interfaces cujos métodos podem ser chamados de uma máquina virtual não local. Qualquer objeto que seja um objeto remoto deve implementar direta ou indiretamente esta interface. Uma classe que implementa uma interface remota deve declarar as interfaces remotas sendo implementadas, definir o construtor para cada objeto remoto e fornecer uma implementação para cada método remoto em todas as interfaces remotas.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a função da classe java.rmi.Naming?
+
+A classe java.rmi.Naming fornece métodos para armazenar e obter referências a objetos remotos no registro de objeto remoto. Cada método da classe Naming leva como um de seus argumentos um nome que é uma String no formato de URL.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### O que significa binding em RMI?
+
+Binding é o processo de associar ou registrar um nome para um objeto remoto, que pode ser usado posteriormente, para pesquisar esse objeto remoto. Um objeto remoto pode ser associado a um nome usando os métodos bind ou rebind da classe Naming.
+
+###### Source
+
+* https://github.com/snowdream/115-Java-Interview-Questions-and-Answers
+
+[[↑] Back to top](#Java)
+### Qual é a diferença entre Garbage Collector serial e throughput?
+
+O Garbage Collector de melhor rendimento usa uma versão paralela do coletor de nova geração e deve ser usado com aplicativos que possuem volumes de dados médios a grandes. Por outro lado, o coletor serial geralmente é adequado para a maioria das aplicações pequenas (aquelas que requerem heaps de até aproximadamente 100 MB nos processadores modernos).
 
 ###### Source
 
